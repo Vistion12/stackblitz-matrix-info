@@ -1,0 +1,11 @@
+<h2>{{ title }}</h2>
+<p>{{ description }}</p>
+<button (click)="toggleMovies()">
+  {{ showMovies ? 'Скрыть фильмы' : 'Показать фильмы' }}
+</button>
+<ul *ngIf="showMovies">
+<li *ngFor="let movie of movies">
+  <h3>{{ movie.title }} - {{ movie.year | date: 'yyyy' }}</h3>
+  <img [src]="movie.image" alt="{{ movie.title }}" width="200" />
+</li>
+</ul>

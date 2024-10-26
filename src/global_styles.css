@@ -1,0 +1,33 @@
+/* Add application styles & imports to this file! */
+/* Устанавливаем фоновый цвет для всей страницы */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Заголовки */
+h1,
+h3 {
+  color: #333;
+  text-align: center;
+}
+
+/* Стиль для списка фильмов */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Стили для изображений фильмов */
+img {
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Пример: добавляем отступы */
+li {
+  margin-bottom: 20px;
+  text-align: center;
+}
